@@ -1,0 +1,49 @@
+{
+	"name": "superheroes-cli",
+	"version": "0.0.0",
+	"description": "Get superhero names on the command-line",
+	"license": "MIT",
+	"repository": "sindresorhus/superheroes-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"superheroes": "cli.js"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"word",
+		"words",
+		"list",
+		"array",
+		"random",
+		"superheroes",
+		"superhero",
+		"heroes",
+		"hero",
+		"marvel",
+		"dc",
+		"comics"
+	],
+	"dependencies": {
+		"meow": "^5.0.0",
+		"superheroes": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.10.0",
+		"xo": "*"
+	}
+}
