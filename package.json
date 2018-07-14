@@ -1,6 +1,6 @@
 {
 	"name": "superheroes-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Get superhero names on the command-line",
 	"license": "MIT",
 	"repository": "sindresorhus/superheroes-cli",
