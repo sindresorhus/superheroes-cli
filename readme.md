@@ -1,4 +1,4 @@
-# superheroes-cli [![Build Status](https://travis-ci.org/sindresorhus/superheroes-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/superheroes-cli)
+# superheroes-cli
 
 > Get superhero names
 
