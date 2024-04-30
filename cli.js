@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const superheroes = require('superheroes');
+import meow from 'meow';
+import superheroes, {randomSuperhero} from 'superheroes';
 
 const cli = meow(`
 	Examples
@@ -15,6 +14,8 @@ const cli = meow(`
 
 	Options
 	  --all  Get all names instead of a random name
-`);
+`, {
+	importMeta: import.meta,
+});
 
-console.log(cli.flags.all ? superheroes.all.join('\n') : superheroes.random());
+console.log(cli.flags.all ? superheroes.join('\n') : randomSuperhero());
